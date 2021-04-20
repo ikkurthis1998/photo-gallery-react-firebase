@@ -1,0 +1,107 @@
+[debug] [2021-04-20T03:13:26.814Z] ----------------------------------------------------------------------
+[debug] [2021-04-20T03:13:26.817Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ikkur\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-20T03:13:26.818Z] CLI Version:   9.10.0
+[debug] [2021-04-20T03:13:26.818Z] Platform:      win32
+[debug] [2021-04-20T03:13:26.818Z] Node Version:  v15.13.0
+[debug] [2021-04-20T03:13:26.820Z] Time:          Tue Apr 20 2021 08:43:26 GMT+0530 (India Standard Time)
+[debug] [2021-04-20T03:13:26.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-20T03:13:26.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-20T03:13:26.830Z] > authorizing via signed-in user (ikkurthis1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ikkur\OneDrive\Desktop\photo-gallery-react-firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-20T03:13:35.373Z] > refreshing access token with scopes: []
+[debug] [2021-04-20T03:13:35.374Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-20T03:13:35.699Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 20 Apr 2021 03:13:36 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:13:35.736Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-04-20T03:13:36.797Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-04-20T03:13:36.797Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project roc8-careers (roc8) 
+[info] 
+=== Firestore Setup
+[debug] [2021-04-20T03:13:38.210Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-04-20T03:13:38.210Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-20T03:13:38.634Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 20 Apr 2021 03:13:39 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:13:38.657Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/roc8-careers/services/firestore.googleapis.com  
+ 
+[debug] [2021-04-20T03:13:40.390Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:13:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:13:40.391Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/roc8-careers  
+ 
+[debug] [2021-04-20T03:13:41.603Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:13:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:13:41.604Z] database_type: CLOUD_FIRESTORE
+[debug] [2021-04-20T03:13:41.605Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-20T03:13:41.606Z] > authorizing via signed-in user (ikkurthis1998@gmail.com)
+[debug] [2021-04-20T03:13:41.606Z] [iam] checking project roc8-careers for permissions ["firebase.projects.get"]
+[debug] [2021-04-20T03:13:41.607Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/roc8-careers:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-04-20T03:13:43.447Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:13:43 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1147","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-04-20T03:13:49.489Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/roc8-careers/releases?pageSize=10&pageToken=  
+ 
+[debug] [2021-04-20T03:13:51.127Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:13:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:13:51.129Z] Found ruleset: projects/roc8-careers/rulesets/ab5350e0-db86-4451-aebc-afc15f0beda1
+[debug] [2021-04-20T03:13:51.130Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/roc8-careers/rulesets/ab5350e0-db86-4451-aebc-afc15f0beda1  
+ 
+[debug] [2021-04-20T03:13:52.764Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:13:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-04-20T03:14:03.048Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/roc8-careers/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2021-04-20T03:14:03.048Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/roc8-careers/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2021-04-20T03:14:03.927Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:14:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-20T03:14:03.995Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Apr 2021 03:14:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-04-20T03:14:54.986Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-04-20T03:14:55.441Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-04-20T03:14:55.442Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.4.1","browserURL":"https://www.gstatic.com/firebasejs/8.4.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.4.1/firebase.tgz"},"live":{"version":"8.4","browserURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.4.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.4.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.4.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.4.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.4.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\ikkur\OneDrive\Desktop\photo-gallery-react-firebase 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=770365812&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-04-20T03:14:57.032Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"93c9830902d787bcce67","redirect_uri":"http://localhost:9005","state":"770365812"}
+[debug] [2021-04-20T03:14:57.606Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Tue, 20 Apr 2021 03:14:58 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"3645f9e44a4aadedc8ac9663fc1ebc38\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"7194:12CB:8CBE62:9CB35A:607E4731"}
+[debug] [2021-04-20T03:14:57.620Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-04-20T03:14:58.295Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-04-20T03:14:58.296Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ikkurthis1998","id":71547157,"node_id":"MDQ6VXNlcjcxNTQ3MTU3","avatar_url":"https://avatars.githubusercontent.com/u/71547157?v=4","gravatar_id":"","url":"https://api.github.com/users/ikkurthis1998","html_url":"https://github.com/ikkurthis1998","followers_url":"https://api.github.com/users/ikkurthis1998/followers","following_url":"https://api.github.com/users/ikkurthis1998/following{/other_user}","gists_url":"https://api.github.com/users/ikkurthis1998/gists{/gist_id}","starred_url":"https://api.github.com/users/ikkurthis1998/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ikkurthis1998/subscriptions","organizations_url":"https://api.github.com/users/ikkurthis1998/orgs","repos_url":"https://api.github.com/users/ikkurthis1998/repos","events_url":"https://api.github.com/users/ikkurthis1998/events{/privacy}","received_events_url":"https://api.github.com/users/ikkurthis1998/received_events","type":"User","site_admin":false,"name":"Sreemannarayana Ikkurthi","company":"None","blog":"","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":14,"public_gists":0,"followers":0,"following":0,"created_at":"2020-09-19T08:54:07Z","updated_at":"2021-04-20T02:53:26Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":79926,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as ikkurthis1998 
+[info] 
