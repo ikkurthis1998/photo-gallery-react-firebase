@@ -1,0 +1,6 @@
+.progress-container {
+    /* border: solid; */
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
