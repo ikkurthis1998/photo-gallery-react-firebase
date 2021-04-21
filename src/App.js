@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1>Iron Man Art Compilation</h1>
-      <p>All of my favourite Iron Man art in one place. Add yours too.</p>
+      <p style={{width: "80%", margin: "auto"}}>All of my favourite Iron Man art in one place. Add yours too.</p>
       <AddImage />
       <ImageGrid setSelectedImage={setSelectedImage} />
       {selectedImage && <Modal selectedImage={selectedImage} setSelectedImage={setSelectedImage}/>}
