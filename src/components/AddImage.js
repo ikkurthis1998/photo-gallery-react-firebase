@@ -21,7 +21,7 @@ function AddImage() {
     }
 
     return (
-        <div>
+        <div className="input-button">
             <label className="input-button">
                 <i className="bi bi-cloud-plus add-icon"></i>
                 <input style={{display: "none"}} type="file" onInput={(e) => inputHandler(e)} />
