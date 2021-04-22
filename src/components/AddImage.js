@@ -14,6 +14,7 @@ function AddImage() {
 
         if (selectedFile && types.includes(selectedFile.type)) {
         setFile(selectedFile);
+        setError(null);
         } else {
         setFile(null);
         setError("Please add a picture of png, jpeg, jpg, jfif format");
